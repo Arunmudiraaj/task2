@@ -1,0 +1,32 @@
+.container {
+  padding: 1rem;
+  align-items: center;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+.input {
+  height: 2.5rem;
+  padding: 0.3rem 1rem;
+  width: 30%;
+  border: none;
+  min-width: 15rem;
+  background-color: bisque;
+  border-radius: 0.5rem;
+}
+.title {
+  height: 2.5rem;
+  padding: 0.3rem 1rem;
+  width: 20%;
+  border: none;
+  min-width: 10rem;
+  background-color: bisque;
+  border-radius: 0.5rem;
+}
+.addBtn {
+  /* font-size: large; */
+  background-color: rgb(136, 235, 235);
+  padding: 0.5rem 1rem;
+  border-radius: 1rem;
+}

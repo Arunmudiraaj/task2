@@ -1,0 +1,17 @@
+.container {
+  height: 3rem;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 0.2rem 0.6rem;
+  background-color: black;
+  color: white;
+}
+.menu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.span {
+  font-size: 2rem;
+}

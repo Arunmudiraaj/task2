@@ -1,0 +1,24 @@
+.container {
+  background-color: bisque;
+  padding: 0.6rem;
+  border-radius: 0.5rem;
+  overflow-wrap: break-word;
+}
+.content {
+  display: flex;
+  flex-direction: column;
+}
+.title {
+  font-weight: 700;
+  padding-bottom: 0.5rem;
+}
+
+.actions {
+  padding-top: 0.5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.timestamp {
+  font-size: small;
+}

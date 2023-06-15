@@ -1,0 +1,19 @@
+.container {
+  display: grid;
+  gap: 1.5rem;
+  grid-template-columns: 15% 15% 15% 15% 15% 15%;
+  /* grid-template-columns: repeat(auto-fit, minmax(15%, 1fr)); */
+  gap: 1rem 1rem;
+  grid-template-areas: ". . . . . .";
+  padding: 0.5rem;
+  grid-auto-rows: auto;
+  grid-auto-flow: dense;
+  justify-content: space-between;
+}
+
+@media (max-width: 800px) {
+  .container {
+    grid-template-columns: 15% 15% 15% 15%;
+    grid-template-areas: ". . . .";
+  }
+}
